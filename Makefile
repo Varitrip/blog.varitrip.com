@@ -1,5 +1,8 @@
 serve:
-	hugo serve --theme octpress
+	hugo serve
+
+generate:
+	hugo
 
 update-theme:
 	@rm -rf themes/octpress
