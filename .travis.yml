@@ -4,9 +4,8 @@ branches:
   - source
 
 install:
-  - npm install hexo-cli -g
   - curl -sSL -o /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.25.1/hugo_0.25.1_Linux-64bit.deb
-  - sudo dpkg -i hugo_0.24_Linux-64bit.deb
+  - sudo dpkg -i /tmp/hugo.deb
 
 script:
   - make generate
