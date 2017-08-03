@@ -27,11 +27,11 @@ defaultContentLanguageInSubdir = false
   name = "Varitrip"
   role = "Varitrip is the world's leading online B2B provider of the largest range of Chinese tourism products. "
   organization = "Varitrip"
-  organization_url = "http://www.varitrip.com"
+  organization_url = "http://en.varitrip.com"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "logo.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "info@varitrip.com"
-  address = "200C, REDPOINT ART FACTORY, NO.36 GUANGQU RD, CHAOYANG, BEIJING, PR CHINA, 100021"
+  email = "rd@varitrip.com"
+  address = "NO 31, LIAN FENG HU TONG,DONG CHENG DISTRICT, BEIJING, PR CHINA."
   office_hours = ""
   phone = ""
   skype = ""
@@ -87,7 +87,7 @@ defaultContentLanguageInSubdir = false
   # highlight_version = "9.9.0"
 
   # Enable native social sharing buttons?
-  sharing = true
+  sharing = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
@@ -174,11 +174,6 @@ defaultContentLanguageInSubdir = false
   url = "/about/us.html"
   weight = 99
 
-[[menu.main]]
-  name = "Home"
-  url = "https://www.varitrip.com"
-  weight = 100
-
 # Taxonomies.
 [taxonomies]
   tag = "tags"
@@ -190,4 +185,4 @@ defaultContentLanguageInSubdir = false
 
 # Configure the English version of the website.
 [languages.zh]
-  languageCode = "zh-cn"
+  languageCode = "zh"
