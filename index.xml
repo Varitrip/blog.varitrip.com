@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Varitrip Blog on Varitrip Blog</title>
+    <link>http://blog.varitrip.com/</link>
+    <description>Recent content in Varitrip Blog on Varitrip Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy; 2017 Varitrip, Inc</copyright>
+    <lastBuildDate>Wed, 02 Aug 2017 17:42:45 +0800</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hello World!</title>
+      <link>http://blog.varitrip.com/post/2017/08/hello.html</link>
+      <pubDate>Wed, 02 Aug 2017 17:42:45 +0800</pubDate>
+      
+      <guid>http://blog.varitrip.com/post/2017/08/hello.html</guid>
+      <description>&lt;p&gt;Varitrip Team over here.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://blog.varitrip.com/about/us.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.varitrip.com/about/us.html</guid>
+      <description>&lt;p&gt;Our products can cover your customers’ entire China experience from transportation &amp;amp; transfers, short leisure attractions, activities, tickets, dining experiences, to multi-day and multi destination fully guided tours.&lt;/p&gt;
+
+&lt;p&gt;Using our complete suite of APIs or through our Web Booking Portal, distributors and retailers can easily and securely connect and book products.&lt;/p&gt;
+
+&lt;p&gt;Our easy to use online platform ensures a seamless booking process for all parties involved.&lt;/p&gt;
+
+&lt;p&gt;We have been in the industry for over 10 years (Since 2006) and our service and products are trusted by the worlds largest travel agencies.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://blog.varitrip.com/about/contact.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.varitrip.com/about/contact.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
