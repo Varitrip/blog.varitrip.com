@@ -1,52 +1,53 @@
-baseurl = "http://blog.varitrip.com/"  # End your URL with a `/` trailing slash.
-title = "Varitrip Blog"
-copyright = "&copy; 2017 Varitrip, Inc"
-theme = "varitrip"
-uglyurls = true
+baseurl: 'http://blog.varitrip.com/'
+title: Varitrip Blog
+copyright: '&copy; 2017 Varitrip, Inc'
+theme: varitrip
+uglyurls: true
 
-enableEmoji = true
-footnotereturnlinkcontents = "<sup>^</sup>"
+enableEmoji: true
+footnotereturnlinkcontents: <sup>^</sup>
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
-
+disqusShortname: ''
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics: ''
 
 # Default language to use (if you setup multilingual support)
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
 
-[permalinks]
-    post = "/:section/:year/:month/:filename"
+permalinks:
+  post: '/:section/:year/:month/:filename'
 
-[blackfriday]
-  hrefTargetBlank = true
+blackfriday:
+  hrefTargetBlank: true
 
-[params]
-  name = "Varitrip"
-  role = "Varitrip is the world's leading online B2B provider of the largest range of Chinese tourism products. "
-  organization = "Varitrip"
-  organization_url = "http://en.varitrip.com"
-  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "logo.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "rd@varitrip.com"
-  address = "NO 31, LIAN FENG HU TONG,DONG CHENG DISTRICT, BEIJING, PR CHINA."
-  office_hours = ""
-  phone = ""
-  skype = ""
-  telegram = ""
-
+#===============================================================================
+# BEGIN PARAMS
+#===============================================================================
+params:
+  name: Varitrip
+  role: >-
+    Varitrip is the world's leading online B2B provider of the largest range of
+    Chinese tourism products. 
+  organization: Varitrip
+  organization_url: 'http://www.varitrip.com'
+  gravatar: false
+  avatar: logo.png
+  email: rd@varitrip.com
+  address: 'NO 31, LIAN FENG HU TONG,DONG CHENG DISTRICT, BEIJING, PR CHINA.'
+  office_hours: ''
+  phone: ''
+  skype: ''
+  telegram: ''
   # Enable Keybase in Contact section by entering your keybase.io username.
-  keybase = ""
-
+  keybase: ''
   # Date format (refer to Go's date format: http://flippinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "2006-01-02"
-
+  date_format: '2006-01-02'
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
-  math = false
+  math: false
 
   # Highlight.js options
   #   highlight
@@ -81,18 +82,18 @@ defaultContentLanguageInSubdir = false
   #
   #   For more info on the highlighting options, see:
   #   https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
-  highlight = true
-  highlight_languages = []
+  highlight: true
+  highlight_languages: []
   # highlight_style = "github"
   # highlight_version = "9.9.0"
 
   # Enable native social sharing buttons?
-  sharing = false
+  sharing: false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = []
-  custom_js  = []
+  custom_css: []
+  custom_js: []
 
   # Publication types.
   #   Used to categorize publications.
@@ -100,15 +101,14 @@ defaultContentLanguageInSubdir = false
   #   The numeric ID is used in a publication's frontmatter to categorize it.
   #   The language can be edited below.
   #   For multi-lingual sites, copy this block to each language section at the end of this file.
-  publication_types = [
-    'Uncategorized',  # 0
-    'Conference proceedings',  # 1
-    'Journal',  # 2
-    'Work in progress',  # 3
-    'Technical report',  # 4
-    'Book',  # 5
-    'Book chapter'  # 6
-  ]
+  publication_types:
+    - Uncategorized
+    - Conference proceedings
+    - Journal
+    - Work in progress
+    - Technical report
+    - Book
+    - Book chapter
 
   # Social/Academic Networking
   #
@@ -127,62 +127,43 @@ defaultContentLanguageInSubdir = false
   #   google-scholar, arxiv, orcid, researchgate, mendeley
   #
   #   Full list: https://jpswalsh.github.io/academicons/
-
-  [[params.social]]
-    icon = "envelope"
-    icon_pack = "fa"
-    link = "mailto:info@varitrip.com"
-
-  [[params.social]]
-    icon = "twitter"
-    icon_pack = "fa"
-    link = "//twitter.com/varitrip"
-
-  [[params.social]]
-    icon = "github"
-    icon_pack = "fa"
-    link = "//github.com/varitrip"
-
+  social:
+    - icon: envelope
+      icon_pack: fa
+      link: 'mailto:info@varitrip.com'
+    - icon: twitter
+      icon_pack: fa
+      link: //twitter.com/varitrip
+    - icon: github
+      icon_pack: fa
+      link: //github.com/varitrip
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
-
-[[menu.main]]
-  name = "Blog"
-  url = ""
-  weight = 1
-
-#[[menu.main]]
-#  name = "Categories"
-#  url = "/categories/"
-#  weight = 20
-
-#[[menu.main]]
-#  name = "Contact"
-#  url = "/tags/"
-#  weight = 30
-
-[[menu.main]]
-  name = "Contact"
-  url = "/about/contact.html"
-  weight = 98
-
-[[menu.main]]
-  name = "About"
-  url = "/about/us.html"
-  weight = 99
+menu:
+  main:
+    - name: Blog
+      url: ''
+      weight: 1
+    - name: Contact
+      url: /about/contact.html
+      weight: 98
+    - name: About
+      url: /about/us.html
+      weight: 99
 
 # Taxonomies.
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  publication_type = "publication_types"
+taxonomies:
+  tag: tags
+  category: categories
+  publication_type: publication_types
 
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
 
 # Configure the English version of the website.
-[languages.zh]
-  languageCode = "zh"
+languages:
+  zh:
+    languageCode: zh
